@@ -42,7 +42,7 @@ const Discover = () => {
           <SongCard
             key={song.key}
             song={song}
-            idx={idx}
+            i={idx}
             isPlaying={isPlaying}
             activeSong={activeSong}
             data={data}
