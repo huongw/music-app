@@ -30,7 +30,7 @@ const AroundYou = () => {
 
   return (
     <div className="flex flex-col">
-      <h2 className="font-bold text-3xl text-white mt-4 mb-10">
+      <h2 className="font-bold text-3xl text-white mt-4 md:mb-10 mb-6 text-center">
         Songs Around
         <span className="font-black"> {country}</span>
       </h2>

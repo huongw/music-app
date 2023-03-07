@@ -21,7 +21,7 @@ const Searchbar = () => {
         Search all songs
       </label>
       <div className="flex flex-row justify-start items-center">
-        <FiSearch className="w-5 h-6 ml-4" />
+        <FiSearch aria-hidden="true" className="w-5 h-6 ml-4" />
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
