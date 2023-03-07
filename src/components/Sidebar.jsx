@@ -43,7 +43,7 @@ const Sidebar = () => {
         <NavLinks handleClick={() => setMobileMenuOpen(false)}/>
       </div>
     </>
-  );className="w-6"
+  );
 };
 
 export default Sidebar;
