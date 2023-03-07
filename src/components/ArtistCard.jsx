@@ -6,7 +6,7 @@ const ArtistCard = ({ track }) => {
   return (
     <div
       onClick={() => navigate(`/artists/${track?.artists[0].adamid}`)}
-      className="flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer"
+      className="flex flex-col w-[320px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer"
     >
       <img
         src={track?.images?.coverart}
